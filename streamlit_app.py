@@ -59,5 +59,5 @@ add_my_fruit=streamlit.text_input('What fruit would you like to add?')
 if not add_my_fruit:
   streamlit.error("Please type a fruit to add it.")
 else:
-  message = insert_fruit(add_my_fruit)
-streamlit.write(message)
+  thanx = insert_fruit(add_my_fruit)
+  streamlit.write(thanx)
